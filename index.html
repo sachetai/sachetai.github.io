@@ -4,51 +4,122 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TIPPS Dashboard</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color: #202124;
+    }
+
+    .container {
       max-width: 900px;
-      margin: auto;
+      margin: 40px auto;
+      background: #ffffff;
       padding: 40px;
-      line-height: 1.6;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
+
     h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
+      font-size: 36px;
+      margin-bottom: 10px;
     }
+
     h2 {
       margin-top: 30px;
+      color: #1a73e8;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      background: #f1f3f4;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #5f6368;
+      text-align: center;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
+
+<div class="container">
+
   <h1>TIPPS Dashboard</h1>
 
   <p>
     TIPPS Dashboard is an AI-powered application designed to help schools analyze survey data,
-    monitor progress across key pillars, and generate actionable insights.
+    monitor progress across key pillars, and generate actionable insights for continuous improvement.
   </p>
 
   <h2>Features</h2>
   <ul>
     <li>Process Qualtrics CSV survey data</li>
-    <li>Track pre/post assessment progress</li>
+    <li>Track pre- and post-assessment progress</li>
     <li>Generate dashboards and executive summaries</li>
     <li>Support data-driven decision making</li>
   </ul>
 
+  <h2>Google User Data Access</h2>
   <p>
-    This application only accesses user data within Google Sheets and Google Drive to provide
-    dashboard functionality. No data is shared with third parties.
+    This application integrates with Google APIs and accesses user data only with explicit user consent.
   </p>
 
-  <p>
+  <ul>
+    <li>Google Sheets – to read and update dashboard data</li>
+    <li>Google Drive – to access files selected by the user</li>
+  </ul>
+
+  <div class="highlight">
+    Data is used only to provide dashboard functionality.  
+    No data is shared, sold, or used for advertising.
+  </div>
+
+  <p style="margin-top:20px;">
     <strong>Privacy Policy:</strong>
-    <a href="https://tippsdashboard.app/privacy" target="_blank">Click here</a>
+    <a href="https://tippsdashboard.app/privacy.html" target="_blank">Click here</a>
   </p>
 
   <p>
     <strong>Contact:</strong> sachetai@umich.edu
   </p>
+
+  <div class="footer">
+    © 2026 TIPPS Dashboard
+  </div>
+
+</div>
+
 </body>
 </html>
