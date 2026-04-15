@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TIPPS Dashboard Privacy Policy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color: #202124;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #1a73e8;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .header {
+      margin-bottom: 30px;
+    }
+
+    .contact {
+      margin-top: 30px;
+      padding: 15px;
+      background: #f1f3f4;
+      border-radius: 6px;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #5f6368;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>TIPPS Dashboard Privacy Policy</h1>
+    <p>This Privacy Policy describes how TIPPS Dashboard accesses, uses, and protects Google user data.</p>
+  </div>
+
+  <h2>Data Access</h2>
+  <p>
+    TIPPS Dashboard accesses Google user data only after explicit user authorization via Google OAuth.
+    The application may access:
+  </p>
+  <ul>
+    <li>Google Sheets data selected by the user</li>
+    <li>Google Drive files and metadata selected or created by the user</li>
+  </ul>
+
+  <h2>How Data is Used</h2>
+  <p>The accessed data is used solely for:</p>
+  <ul>
+    <li>Importing and processing survey data</li>
+    <li>Updating dashboard spreadsheets</li>
+    <li>Generating analytics and summaries</li>
+  </ul>
+
+  <h2>Data Sharing</h2>
+  <p>
+    TIPPS Dashboard does not sell, share, or transfer Google user data to third parties.
+    Data is only used within the application to provide its core functionality.
+  </p>
+
+  <h2>Data Storage and Retention</h2>
+  <p>
+    Data is accessed in real-time and only stored as necessary to provide functionality.
+    No unnecessary or unrelated data is retained.
+  </p>
+
+  <h2>Security</h2>
+  <p>
+    Reasonable administrative and technical safeguards are implemented to protect user data
+    from unauthorized access, use, or disclosure.
+  </p>
+
+  <h2>User Control</h2>
+  <p>
+    Users can revoke access to their data at any time via their Google account permissions.
+  </p>
+
+  <div class="contact">
+    <strong>Contact</strong><br>
+    sachetai@umich.edu
+  </div>
+
+  <div class="footer">
+    © 2026 TIPPS Dashboard
+  </div>
+
+</div>
+
+</body>
+</html>
